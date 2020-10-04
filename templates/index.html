@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>typespeedtext::</title>
+    <script src="/static/js/script.js" async></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+</head>
+<body>
+
+<!--T I T L E-->
+
+<section class="hero is-black">
+  <div class="hero-body">
+      <div class="container">
+        <a href="/"><h1 class="title">typespeedtext::</h1></a>
+        <br>
+        <h2 class="subtitle">Test your writing speed, simple text.</h2>
+        <br>
+        <div class="columns">
+            <div class="column">
+                <h2 class="subtitle">
+                    <div class="tags has-addons">
+                        <span class="tag">Legend</span>
+                        <span class="tag is-dark">Colors</span>
+                      </div>
+                          <div class="field is-grouped is-grouped-multiline">
+                            <div class="control">
+                              <div class="tags has-addons">
+                                <span class="tag is-dark">correct words</span>
+                                <span class="tag is-warning"></span>
+                                &nbsp;
+                                <span class="tag is-dark">wrong words</span>
+                                <span class="tag is-danger"></span>
+                                &nbsp;
+                                <span class="tag is-dark">correct text completion</span>
+                                <span class="tag is-info"></span>
+                              </div>
+                            </div>
+                          </div>
+                </h2>
+            </div>
+          </div>
+    </div>
+</section>
+
+<!--C O N T E N T-->
+
+      <section class="hero is-black is-bold is-fullheight">
+        <div class="hero-body">
+          <div class="container">
+              <h2 class="subtitle">
+                <section class="test-area">
+                    <div id="origin-text">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+                    </div>
+              </h2>
+            <h1 class="title">
+                <section id="clock">
+                    <div class="timer">00:00:00</div>
+                </section>
+            </h1>
+            <h2 class="subtitle">
+                <div class="field">
+                    <div class="control">
+                      <textarea class="textarea is-dark is-medium test-wrapper" id="test-area" name="textarea" rows="6" placeholder="The clock starts when you start typing." style="background-color: black;"></textarea>
+                    </div>
+                  </div>
+                  <button id="reset" class="button is-dark">Restart</button>
+            </h2>
+          </div>
+        </section>  
+        </div>
+      </section>
+
+<!--F O O T E R-->
+
+      <footer class="footer hero is-black is-bold">
+        <div class="content has-text-centered">
+            <h2 class="subtitle">typespeedtext::</h2>
+          <p>
+            2020. Python Flask, Javascript. <a href="https://github.com/gblvil">GitHub</a>
+          </p>
+        </div>
+      </footer>
+      
+</body>
+</html>
